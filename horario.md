@@ -5,12 +5,12 @@
 ## Darwin Eventur
 ![logo](images/darwincolorv2.png)
 ## Facultad de ciencias
-## 13 al 17 de Julio de 2015 
+## 14 al 17 de Febrero de 2017
 
 ![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 								#ARDUINO2015
 
-* * * 
+* * *
 
 # Horario
 
@@ -21,5 +21,3 @@
 |Repaso de hardware|Interrup. software|Motores|Interrup. hardware|Displays|Python|
 |Repaso de electrónica|C avanzado|Motores stepper|Teclados|Redes|Gráficos|
 |Contenido del kit|Dibujando matriz leds|Estructura del IDE|Alarma|Montajes avanzados|Web|
-
-  
