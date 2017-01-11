@@ -2,12 +2,11 @@
 
 
 ## José Antonio Vacas @javacasm
-## Darwin Eventur
-![logo](images/darwincolorv2.png)
-## Facultad de ciencias
-## 13 al 17 de Julio de 2015 
-##								#ARDUINO2015
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#ARDUINO2017
 
-![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+![CC](./images/Licencia_CC_peque.png)
 
-* * * 
+* * *
