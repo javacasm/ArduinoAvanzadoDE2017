@@ -1,6 +1,4 @@
-* * *
-
-# Curso básico de Arduino
+ # Curso básico de Arduino
 
 
 ### José Antonio Vacas @javacasm
@@ -62,7 +60,7 @@ Los bloques están agrupados en familias, cada una de ellas con un color concret
 Existen 2 tipos de bloques:
 ![bloquesHardware](./imagenes/bloquesHardware.png)
 
-* Los que llevan asociado un componente electrónico. Entre los primeros están todos los incluidos los bloques de las familias **Octupus** o **Zum** o la familia de los Servos. En ellos están los típicos bloques **Led**, **Pulsador**, **Potenciómetro**, **Sensor de luz**, etc. 
+* Los que llevan asociado un componente electrónico. Entre los primeros están todos los incluidos los bloques de las familias **Octupus** o **Zum** o la familia de los Servos. En ellos están los típicos bloques **Led**, **Pulsador**, **Potenciómetro**, **Sensor de luz**, etc.
 	Todos estos bloques necesitan que les asignemos un pin de la placa que será al que estén conectados y que incluiremos en el conector **#PIN**.
 
 ![bloquesSoftware](./imagenes/bloquesProgramacion.png)
@@ -100,7 +98,7 @@ Vemos que hemos utilizado 2 bloques Led, no hay que entender que se necesitan 2 
 
 #### Ejercicio: Cambiar la velocidad de parpadeo
 
-* * * 
+* * *
 
 ## Con led externo
 
@@ -118,7 +116,7 @@ Vemos que hemos utilizado 2 bloques Led, no hay que entender que se necesitan 2 
 #### Ejercicio: Cambiar el pin utilizado al pin 2
 
 * * *
-	
+
 ### Esquema eléctrico
 
 ![led externo](imagenes/ExampleCircuit_sch.png)
@@ -134,7 +132,7 @@ Vemos que hemos utilizado 2 bloques Led, no hay que entender que se necesitan 2 
 
 #### Ejercicio: Cambiar al pin del esquema
 
-* * * 
+* * *
 ## Veamos un poco de código
 
 	void setup()  				// Función de configuración
@@ -190,7 +188,7 @@ Como queremos que el código sea claro usaremos una variable para indicar el pin
 	  digitalWrite(ledrojo,LOW);
 	  digitalWrite(ledverde,HIGH);
 	  delay(esperaRojo);
-	} 
+	}
 
 * * *
 ## Montaje semáforo
@@ -301,7 +299,7 @@ Una sentencia condicional es la que nos permite decidir si hacemos o no un bloqu
 
 # Pulsaciones: botones
 
-## Montaje 
+## Montaje
 
 
 ![circuitoPulsador](http://www.softweb.es/acuario/Esquemas/conexcion%20boya.jpg)
@@ -370,9 +368,9 @@ Cuando tenemos un conjunto de instrucciones que se repiten a lo largo del códig
 
 ![fnciones](./imagenes/funciones.png)
 
-## Función: 
+## Función:
 
-Conjunto de instrucciones que empaquetamos en un bloque y que podemos llamar desde cualquier parte de nuestro código. 
+Conjunto de instrucciones que empaquetamos en un bloque y que podemos llamar desde cualquier parte de nuestro código.
 
 * Todas las funciones tienen 1 nombre que con el que se definen
 
@@ -385,7 +383,7 @@ Conjunto de instrucciones que empaquetamos en un bloque y que podemos llamar des
 Podemos llamar a una función desde cualquier parte de nuestro código.
 
 
-* * * 
+* * *
 # Escritura de valores analógicos
 
 ## Usando técnicas como PWM podemos simular valores intermedios: 0 - 255
@@ -402,7 +400,7 @@ Podemos llamar a una función desde cualquier parte de nuestro código.
 	void setup()						// configuracion
 	{
 	  pinMode(11,OUTPUT);				// Usaremos la patilla 11 como salida
-	  
+
 	}
 
 	void loop()
@@ -455,7 +453,7 @@ Es muy importante que seamos claros con los nombres de las variables para así n
 
 
 ![colores](imagenes/Colores.png)
-* * * 
+* * *
 # Potenciómetro regulando una salida analógica
 
 ![lecturaAnalogica](imagenes/arduino_pot_led.png)
@@ -514,26 +512,26 @@ Hacemos el siguiente programa bitbloq
 
 	//Arduino PWM Speed Control：
 	int E1 = 5;  
-	int M1 = 4; 
+	int M1 = 4;
 	int E2 = 6;                      
 	int M2 = 7;                        
-	 
-	void setup() 
-	{ 
+
+	void setup()
+	{
 	    pinMode(M1, OUTPUT);   
-	    pinMode(M2, OUTPUT); 
-	} 
-	 
-	void loop() 
-	{ 
+	    pinMode(M2, OUTPUT);
+	}
+
+	void loop()
+	{
 	  int value;
-	  for(value = 0 ; value <= 255; value+=5) 
-	  { 
+	  for(value = 0 ; value <= 255; value+=5)
+	  {
 	    digitalWrite(M1,HIGH);   
 	    digitalWrite(M2, HIGH);       
 	    analogWrite(E1, value);   //PWM Speed Control
 	    analogWrite(E2, value);   //PWM Speed Control
-	    delay(30); 
+	    delay(30);
 	  }  
 	}
 
@@ -550,7 +548,7 @@ Una versión más complicada donde añadimos unos indicadores de la dirección
 
 ![ControlMotorIndicadores.png](imagenes/ControlMotorIndicadores.png)
 
-El programa sería 
+El programa sería
 
 ![ProgramaControlMotor](imagenes/ProgramaControlMotor.png)
 
@@ -568,7 +566,7 @@ El programa sería
 ![ParpadeoSerie](imagenes/ParpadeoSerie.png)
 
 
-* * * 
+* * *
 # Números decimales
 
 Usaremos el tipo de variable float
@@ -585,10 +583,10 @@ Usaremos el tipo de variable float
 	int sensorValue = 0;        // valor leído
 
 	void setup() {
-	  Serial.begin(9600); 
+	  Serial.begin(9600);
 	}
 	void loop() {
-	  
+
 	  sensorValue = analogRead(analogInPin);   // leemos el valor analógico
 	  float voltios=(5.0*sensorValue) /1023;   // Lo convertimos
 	  Serial.print("sensor = " );                       
@@ -602,7 +600,7 @@ Usaremos el tipo de variable float
 
 
 
-* * * 
+* * *
 # Sensores
 
 ## Para los sensores tenemos que seguir los pasos
@@ -611,7 +609,7 @@ Usaremos el tipo de variable float
 * Conversiones: traducimos a valores físicos (aritmética/mapeo) según el fabricante
 * Calibraciones: establecemos valores de referencia
 
-[Introducción a la electrónica](http://www.slideshare.net/javacasm/40-introduccin-a-la-electrnica) 
+[Introducción a la electrónica](http://www.slideshare.net/javacasm/40-introduccin-a-la-electrnica)
 
 [Sensores](http://www.slideshare.net/javacasm/46-sensores)
 
@@ -681,11 +679,11 @@ El programa sería este:
 
 ## Usamos la fórmula del fabricante
 
-	temperatura = valorAnalogico*5*100/1024 
+	temperatura = valorAnalogico*5*100/1024
 
 [pinout lm35](imagenes/tmp36pinout.gif)
 
-* * * 
+* * *
 ## El código quedaría así:
 
 ### Enviaremos el dato leído al pc con la función __Serial__
@@ -715,17 +713,17 @@ Ejemplo: [lcd](http://arduino.cc/en/pmwiki.php?n=Reference/LiquidCrystal) o [ser
 
 	#include <Libreria.h>
 
-* * * 
+* * *
 # Servo
 
-### Los servos son motores capaces de mantener una posición angular. 
+### Los servos son motores capaces de mantener una posición angular.
 ### Se les dice él ángulo que deben formar
 
 ##### (también hay servos que pueden girar todo lo que quieran)
 
 ![knob](imagenes/knob_bb.png)
 
-* * * 
+* * *
 
 ![program](imagenes/ServoControladoPotenciometro.png)
 
@@ -747,7 +745,7 @@ Ejemplo: [lcd](http://arduino.cc/en/pmwiki.php?n=Reference/LiquidCrystal) o [ser
 	  int PosicionServo=map(valorPotenciometro,0,1023,0,180);	// Reescalamos el valor
 	  servo.write(valorPotenciometro);							// Le pedimos que gira hasta ese ángulo
 	  delay(50);												// Le damos tiempo para que complete el giro
-	
+
 }
 ## Oscilación servo
 
