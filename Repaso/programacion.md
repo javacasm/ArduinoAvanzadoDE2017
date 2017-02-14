@@ -2,16 +2,13 @@
 
 
 ## José Antonio Vacas @javacasm
-## Darwin Eventur
-![logo](images/darwincolorv2.png)
-## Facultad de ciencias
-## 13 al 17 de Julio de 2015 
-##								#ARDUINO2015
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#Arduino2017
 
-![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
-
-
-
+![CC](../images/Licencia_CC_peque.png)
+ 
 ***
 
 <!-- background: #184bc6-->
@@ -68,7 +65,7 @@ Usamos bloques para definir los programas:
 <!-- color: #fff -->
 <!-- font: centurygothic -->
 
-## Parpadeo [Bitbloq](http://bitbloq.bq.com) 
+## Parpadeo [Bitbloq](http://bitbloq.bq.com)
 
 * LED encendido
 * Esperamos
@@ -114,7 +111,7 @@ Montaje en la placa de prototipos
 
 ![blink](http://4.bp.blogspot.com/-bSwcT88QabE/UVuMY29lHfI/AAAAAAAAAAw/wyLijXEmafk/s1600/01+Blinky_bb.png)
 
-Ejercicio: Cambiamos al pin 8 
+Ejercicio: Cambiamos al pin 8
 
 ¡¡Añadimos la resistencia!!
 
@@ -124,7 +121,7 @@ Ejercicio: Cambiamos al pin 8
 <!-- color: #fff -->
 <!-- font: centurygothic -->
 
-# [Bitbloq](http://bitbloq.bq.com) 
+# [Bitbloq](http://bitbloq.bq.com)
 ## Semáforo
 
 2 leds (rojo y verde) se alternan
@@ -183,7 +180,7 @@ Ejercicio: Cambiamos al pin 8
 	}
 	void loop()
 	{ int esperaVerde=1000;
-	  int esperaRojo=500; 
+	  int esperaRojo=500;
 
 	  digitalWrite(ledverde,LOW);
 	  digitalWrite(ledrojo,HIGH);
@@ -213,7 +210,7 @@ Usaremos el tipo de variable float
 
 * Calibramos viendo los extremos y el valor intermedio 3.3V
 
-[código](https://github.com/javacasm/Robotica-Educativa-Arduino-y-3D/tree/master/codigo/voltimetro) 
+[código](https://github.com/javacasm/Robotica-Educativa-Arduino-y-3D/tree/master/codigo/voltimetro)
 
 ***
 
