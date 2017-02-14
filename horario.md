@@ -13,10 +13,10 @@
 
 # Horario
 
-|LUNES|MARTES|MIÉRCOLES|JUEVES|VIERNES M|VIERNES T|
+|MARTES|MIÉRCOLES|JUEVES|VIERNES M|VIERNES T|
 |---|---|---|---|---|---|
-|Introducción|Progr. avanzada|ADC|DAC|Comuni- caciones|Procesado en el pc|
-|Repaso de prog. Arduino|Acceso paralelo a puertos|Sensores|Sonido|Sensores II|Java|
-|Repaso de hardware|Interrup. software|Motores|Interrup. hardware|Displays|Python|
-|Repaso de electrónica|C avanzado|Motores stepper|Teclados|Redes|Gráficos|
-|Contenido del kit|Dibujando matriz leds|Estructura del IDE|Alarma|Montajes avanzados|Web|
+|Introducción|Progr. avanzada|ADC/DAC|Comuni- caciones|Procesado en el pc|
+|Repaso de prog. Arduino|Acceso paralelo a puertos|Sensores|Sensores II|Java|
+|Repaso de hardware|Interrup. software|Motores|Interrup. hardware|Python|
+|Repaso de electrónica|Estructura del IDE|Motores stepper|Teclados|Redes/Web|
+|Contenido del kit|Displays & matrices leds|Sonido|Alarma|Montajes avanzados|
