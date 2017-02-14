@@ -1,15 +1,26 @@
+# Arduino: Nivel avanzado
 
+
+## José Antonio Vacas @javacasm
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#Arduino2017
+
+![CC](../images/Licencia_CC_peque.png)
+
+* * *
 # Arduino Zero
 
 ![arduino zero](http://arduino.cc/en/uploads/Main/Arduino_Zero_front450.png)
 
-Constántemente estamos viendo nuevos avances y productos en el entorno del open-source. 
+Constántemente estamos viendo nuevos avances y productos en el entorno del open-source.
 
 |Arduino Zero| |
 |---|---|
 |Microcontrolador|ATSAMD21G18, 48pins LQFP|
 |Voltaje|3.3V|
-|Pines Digitales I/O|14, with 12 PWM y UART| 
+|Pines Digitales I/O|14, with 12 PWM y UART|
 |Entradas Analógicas|6 canales, 12-bit ADC |
 |Salidas Analógicas|1 canal, 10-bit DAC|
 |Corriente DC por Pin I/O|7 mA|
