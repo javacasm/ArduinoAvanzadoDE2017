@@ -1,4 +1,16 @@
+# Arduino: Nivel avanzado
+
+
+## José Antonio Vacas @javacasm
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#Arduino2017
+
+![CC](./images/Licencia_CC_peque.png)
+
 * * *
+
 # Proyecto: termostato configurable y que activa un relé
 
 [Proyecto 1](https://arduinolab.wordpress.com/)
@@ -19,5 +31,3 @@
 Comparamos el valor leido del potenciómetro con el leído del potenciómetro.
 Si este es máyor activamos el relé
 Mostramos en el lcd la temperatura actual
-
-
