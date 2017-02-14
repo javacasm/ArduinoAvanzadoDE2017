@@ -10,3 +10,9 @@
 ![CC](./images/Licencia_CC_peque.png)
 
 * * *
+
+
+## [Programa del curso](./programa.md)
+
+
+# [Recursos extra](./Extra)
