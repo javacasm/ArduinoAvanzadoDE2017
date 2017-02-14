@@ -19,4 +19,4 @@
 |[Repaso de programación Arduino](./Repaso/curso arduino basico.md)|[Acceso avanzado a puertos](Programación avanzada/Arduino A. - 1.2.1 - Programación avanzada_ Puertos.pdf)|Sensores|Sensores II|Java|
 |[Repaso de hardware](./Repaso/Arduino A. - 1.1.2 - Introducción_ Hardware.pdf)|[Interrupciones software](Programación avanzada/Arduino A. - 1.2.2 - Programación avanzada_ Interrupciones Software.pdf)|Motores|Interrup. hardware|Python|
 |[Repaso de electrónica](presentaciones/Introducción a la electrónica.pdf)|Estructura del IDE|Motores stepper|Teclados|Redes/Web|
-|Contenido del [Kit](./kit.md)|Displays & matrices leds|Sonido|Alarma|Montajes avanzados|
+|Contenido del [Kit](./Extra/GUIA INVENKIT 2016.pdf)|Displays & matrices leds|Sonido|Alarma|Montajes avanzados|
