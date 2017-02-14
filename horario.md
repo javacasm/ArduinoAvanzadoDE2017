@@ -2,13 +2,12 @@
 
 
 ## José Antonio Vacas @javacasm
-## Darwin Eventur
-![logo](images/darwincolorv2.png)
-## Facultad de ciencias
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
 ## 14 al 17 de Febrero de 2017
+##								#Arduino2017
 
-![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
-								#ARDUINO2015
+![CC](./images/Licencia_CC_peque.png)
 
 * * *
 
