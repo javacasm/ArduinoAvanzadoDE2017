@@ -15,8 +15,8 @@
 
 |MARTES|MIÉRCOLES|JUEVES|VIERNES M|VIERNES T|
 |---|---|---|---|---|---|
-|Introducción|Progr. avanzada|ADC/DAC|Comuni- caciones|Procesado en el pc|
-|Repaso de prog. Arduino|Acceso paralelo a puertos|Sensores|Sensores II|Java|
-|Repaso de hardware|Interrup. software|Motores|Interrup. hardware|Python|
-|Repaso de electrónica|Estructura del IDE|Motores stepper|Teclados|Redes/Web|
-|Contenido del kit|Displays & matrices leds|Sonido|Alarma|Montajes avanzados|
+|[Introducción](presentaciones/Arduino A. - 0.0 - Introducción a Arduino.pdf)|[C avanzado](Programación avanzada/Arduino A. - 1.2.3 - Programación avanzada- C avanzado.pdf)|ADC/DAC|Comuni- caciones|Procesado en el pc|
+|[Repaso de programación Arduino](./Repaso/curso arduino basico.md)|[Acceso avanzado a puertos](Programación avanzada/Arduino A. - 1.2.1 - Programación avanzada_ Puertos.pdf)|Sensores|Sensores II|Java|
+|[Repaso de hardware](./Repaso/Arduino A. - 1.1.2 - Introducción_ Hardware.pdf)|[Interrupciones software](Programación avanzada/Arduino A. - 1.2.2 - Programación avanzada_ Interrupciones Software.pdf)|Motores|Interrup. hardware|Python|
+|[Repaso de electrónica](presentaciones/Introducción a la electrónica.pdf)|Estructura del IDE|Motores stepper|Teclados|Redes/Web|
+|Contenido del [Kit](./kit.md)|Displays & matrices leds|Sonido|Alarma|Montajes avanzados|
