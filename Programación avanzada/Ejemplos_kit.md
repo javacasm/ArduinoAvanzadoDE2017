@@ -2,14 +2,14 @@
 
 
 ## José Antonio Vacas @javacasm
-## Darwin Eventur
-![logo](images/darwincolorv2.png)
-## Facultad de ciencias
-## 13 al 17 de Julio de 2015 
-##								#ARDUINO2015
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#Arduino2017
 
-![CC](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+![CC](./images/Licencia_CC_peque.png)
 
+* * *
 ***
 
 <!-- background: #184bc6-->
@@ -22,7 +22,7 @@
 ![RTC](http://i56.tinypic.com/scx561.jpg)
 
 
-* * * 
+* * *
 
 # KIT (registro de desplazamiento)
 #### Vamos a encender varios leds de forma consecutiva imitando el efecto que hacía Kit, el coche fantástico
@@ -64,7 +64,7 @@ Cambiaremos nuestro programa "Aleatorio" para que el tiempo de espera con el led
 
 # Pulsaciones: botones
 
-## Montaje 
+## Montaje
 
 
 ![circuitoPulsador](http://www.softweb.es/acuario/Esquemas/conexcion%20boya.jpg)
@@ -125,7 +125,7 @@ Se añade un retardo para evitar que se detecten varias pulsaciones.
 
 Vemos que hay muchos bloque que se repiten, por lo que para facilitarlo definiremos funciones.
 
-* * * 
+* * *
 
 ## Vamos a rehacer el programa usando acceso directo a los puertos
 
