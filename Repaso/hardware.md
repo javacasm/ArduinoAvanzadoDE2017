@@ -1,13 +1,14 @@
 # Arduino: Nivel avanzado
 
 
-## José Antonio Vacas
-## Darwin Eventur
-![logo](images/darwincolorv2.png)
-## Facultad de ciencias
-## 13 al 17 de Julio de 2015 
-##								#ARDUINO2015
+## José Antonio Vacas @javacasm
+## Organiza: Darwin Eventur
+## Facultad de Ciencias
+## 14 al 17 de Febrero de 2017
+##								#Arduino2017
 
-* * * 
+![CC](../images/Licencia_CC_peque.png)
+
+* * *
 
 # Repaso de Hardware
