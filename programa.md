@@ -29,14 +29,14 @@ Programación avanzada 5h
 * [C avanzado](Programación avanzada/Arduino A. - 1.2.3 - Programación avanzada- C avanzado.pdf)
 
 Expandiendo Arduino 12h
-• DAC: ejemplo sonido estéreo
-• Interrupciones hardware
-• Control avanzado de motores
-• Display: lcd, graphic lcd, led matrix
+* DAC: ejemplo sonido estéreo
+* Interrupciones hardware
+* Control avanzado de motores
+* Display: lcd, graphic lcd, led matrix
 
 Procesado de datos desde el PC 3h
-• Python
-• java
+* Python
+* java
 
 # Requisitos
 
