@@ -30,7 +30,7 @@ Programación avanzada 5h
 
 Expandiendo Arduino 12h
 * DAC: ejemplo sonido estéreo
-* Interrupciones hardware
+* [Interrupciones hardware](Expandiendo Arduino/Arduino A. - 2.1.3 - Expandiendo Arduino_ interrupciones hardware.pdf)
 * Control avanzado de motores
 * Display: lcd, graphic lcd, led matrix
 
