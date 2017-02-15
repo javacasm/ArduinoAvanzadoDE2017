@@ -16,5 +16,7 @@
 
 ## [Programa del curso](./programa.md)
 
+## [Ejemplos](./proyectos.md)
+
 
 # [Recursos extra](./Extra)
