@@ -15,3 +15,5 @@
 ## Referencias
 
 [Tutorial de Luis Llamas](https://www.luisllamas.es/arduino-rfid-mifare-rc522/)
+
+https://github.com/javacasm/ArduinoAvanzadoDE2017/search?utf8=%E2%9C%93&q=rfid
